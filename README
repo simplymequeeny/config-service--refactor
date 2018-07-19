@@ -1,12 +1,1 @@
-Task :
-Please rewrite ConfigService while remain the same functionality. Also create sometimes test case too.
-Free feel to refactor or use Spring  or other libraries if you think it can have better structure.
 
-Requirement :
-Provide configService (like Windows Registry) with caching to speed up the response.
-Referring to ConfigServiceImpl, it basically just read from table and return the value in String/Integer/Boolean.
-Referring to ConfigServiceCachedImpl, in additionally to ConfigServiceImpl, it provides caching so that access within
-5 mins will use the cached data instead hitting the DB.
-
-Note:
-The table (REGISTRYHASH) is created and you can try to run RepositryHashRepositoryTest as start.
